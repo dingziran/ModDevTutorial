@@ -11,3 +11,5 @@ out
 *.iws
 
 eclipse
+
+eclipse\logs
