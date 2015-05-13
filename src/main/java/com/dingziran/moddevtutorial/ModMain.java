@@ -15,8 +15,9 @@ import net.minecraft.item.Item;
 /**
  * Created by dingziran on 2015/5/6.
  */
-@Mod(modid = "moddevtutorial", version = "0.0.1")
+@Mod(modid = ModMain.MOD_ID, version = "0.0.1")
 public class ModMain {
+    public static final String MOD_ID="moddevtutorial";
     public static CreativeTabs modDevTab=new CreativeTabs("Mod Dev Tab") {
         @Override
         public Item getTabIconItem() {
@@ -28,10 +29,10 @@ public class ModMain {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-        itemThingy=new Item().setUnlocalizedName("itemThingy").setCreativeTab(modDevTab);
+        itemThingy=new Item().setUnlocalizedName("itemThingy").setCreativeTab(modDevTab).setTextureName(MOD_ID+":"+"itemThingy");
         GameRegistry.registerItem(itemThingy,"itemThingy");
 
-        blockRed=new BlockRed().setBlockName("blockRed").setCreativeTab(modDevTab);
+        blockRed=new BlockRed().setBlockName("blockRed").setCreativeTab(modDevTab).setBlockTextureName(MOD_ID+":"+"blockRed");
         GameRegistry.registerBlock(blockRed,"blockRed");
     }
 
