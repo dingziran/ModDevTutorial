@@ -18,7 +18,7 @@ import net.minecraft.item.Item;
 @Mod(modid = ModMain.MOD_ID, version = "0.0.1")
 public class ModMain {
     public static final String MOD_ID="moddevtutorial";
-    public static CreativeTabs modDevTab=new CreativeTabs("Mod Dev Tab") {
+    public static CreativeTabs modDevTab=new CreativeTabs("moddevtab") {
         @Override
         public Item getTabIconItem() {
             return Items.apple;
