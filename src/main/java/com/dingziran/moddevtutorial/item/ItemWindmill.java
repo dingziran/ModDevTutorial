@@ -1,5 +1,6 @@
-package com.dingziran.moddevtutorial;
+package com.dingziran.moddevtutorial.item;
 
+import com.dingziran.moddevtutorial.ModMain;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -21,7 +22,7 @@ public class ItemWindmill extends Item{
 //            if(side==0)
 //                world.setBlock(x,y-1,z,ModMain.blockWindmill);
             if(side==1)
-                world.setBlock(x,y+1,z,ModMain.blockWindmill);
+                world.setBlock(x,y+1,z, ModMain.blockWindmill);
 //            if(side==2)
 //                world.setBlock(x,y,z-1,ModMain.blockWindmill);
 //            if(side==3)

@@ -1,4 +1,4 @@
-package com.dingziran.moddevtutorial;
+package com.dingziran.moddevtutorial.tileentity;
 
 import net.minecraft.tileentity.TileEntity;
 

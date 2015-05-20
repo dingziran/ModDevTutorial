@@ -1189,9 +1189,9 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:51] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
 [13:17:51] [Client thread/TRACE] [moddevtutorial/moddevtutorial]: Sending event FMLPreInitializationEvent to mod moddevtutorial
 [13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:itemThingy 4096 net.minecraft.item.Item@379ddab2 (req. id -1)
-[13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.ItemWindmill@2b35976a (req. id -1)
-[13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:blockWindmill 165 com.dingziran.moddevtutorial.BlockWindmill@688c914e (req. id -1)
-[13:17:51] [Client thread/DEBUG] [FML/moddevtutorial]: Found matching Block com.dingziran.moddevtutorial.BlockWindmill@688c914e for ItemBlock net.minecraft.item.ItemBlock@6f05d5f2 at id 165, original id requested: -1
+[13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.item.ItemWindmill@2b35976a (req. id -1)
+[13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:blockWindmill 165 com.dingziran.moddevtutorial.block.BlockWindmill@688c914e (req. id -1)
+[13:17:51] [Client thread/DEBUG] [FML/moddevtutorial]: Found matching Block com.dingziran.moddevtutorial.block.BlockWindmill@688c914e for ItemBlock net.minecraft.item.ItemBlock@6f05d5f2 at id 165, original id requested: -1
 [13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:blockWindmill 165 net.minecraft.item.ItemBlock@6f05d5f2 (req. id 165)
 [13:17:51] [Client thread/TRACE] [FML/moddevtutorial]: Registry add: moddevtutorial:blockRed 166 com.dingziran.moddevtutorial.block.BlockRed@3acae925 (req. id -1)
 [13:17:51] [Client thread/DEBUG] [FML/moddevtutorial]: Found matching Block com.dingziran.moddevtutorial.block.BlockRed@3acae925 for ItemBlock net.minecraft.item.ItemBlock@67a6f2c4 at id 166, original id requested: -1
@@ -1461,7 +1461,7 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:log2 162 net.minecraft.block.BlockNewLog@70f02c32
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@62010f5c
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:dark_oak_stairs 164 net.minecraft.block.BlockStairs@51fadaff
-[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockWindmill 165 com.dingziran.moddevtutorial.BlockWindmill@688c914e
+[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockWindmill 165 com.dingziran.moddevtutorial.block.BlockWindmill@688c914e
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockRed 166 com.dingziran.moddevtutorial.block.BlockRed@3acae925
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:hay_block 170 net.minecraft.block.BlockHay@5c44c582
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:carpet 171 net.minecraft.block.BlockCarpet@7b205dbd
@@ -1787,13 +1787,13 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:record_11 2266 net.minecraft.item.ItemRecord@73a2e526
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:record_wait 2267 net.minecraft.item.ItemRecord@7d64e326
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemThingy 4096 net.minecraft.item.Item@379ddab2
-[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.ItemWindmill@2b35976a
+[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.item.ItemWindmill@2b35976a
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:glass 20 net.minecraft.block.BlockGlass@4149c063 (req. id 20)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_stairs 67 net.minecraft.block.BlockStairs@51c693d (req. id 67)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:monster_egg 97 net.minecraft.block.BlockSilverfish@6cb6decd (req. id 97)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:brewing_stand 117 net.minecraft.block.BlockBrewingStand@258d79be (req. id 117)
 [13:17:56] [Server thread/DEBUG] [FML/]: Fixed block id mismatch moddevtutorial:blockWindmill: 165 (init) -> 167 (map).
-[13:17:56] [Server thread/TRACE] [FML/]: Registry add: moddevtutorial:blockWindmill 167 com.dingziran.moddevtutorial.BlockWindmill@688c914e (req. id 167)
+[13:17:56] [Server thread/TRACE] [FML/]: Registry add: moddevtutorial:blockWindmill 167 com.dingziran.moddevtutorial.block.BlockWindmill@688c914e (req. id 167)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:emerald_ore 129 net.minecraft.block.BlockOre@3081f72c (req. id 129)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:diamond_block 57 net.minecraft.block.BlockCompressed@651aed93 (req. id 57)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:red_flower 38 net.minecraft.block.BlockFlower@205d38da (req. id 38)
@@ -2303,7 +2303,7 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockCarrot@7d9e8ef7 for ItemBlock net.minecraft.item.ItemBlock@74960bfa at id 141, original id requested: 141
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:carrots 141 net.minecraft.item.ItemBlock@74960bfa (req. id 141)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:stone_hoe 291 net.minecraft.item.ItemHoe@7a1234bf (req. id 291)
-[13:17:56] [Server thread/TRACE] [FML/]: Registry add: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.ItemWindmill@2b35976a (req. id 4097)
+[13:17:56] [Server thread/TRACE] [FML/]: Registry add: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.item.ItemWindmill@2b35976a (req. id 4097)
 [13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockClay@127a7a2e for ItemBlock net.minecraft.item.ItemBlock@fade1fc at id 82, original id requested: 82
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:clay 82 net.minecraft.item.ItemBlock@fade1fc (req. id 82)
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:leather_leggings 300 net.minecraft.item.ItemArmor@1a20270e (req. id 300)
@@ -2345,7 +2345,7 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockGlowstone@55cf0d14 for ItemBlock net.minecraft.item.ItemBlock@35a9782c at id 89, original id requested: 89
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:glowstone 89 net.minecraft.item.ItemBlock@35a9782c (req. id 89)
 [13:17:56] [Server thread/DEBUG] [FML/]: Fixed item id mismatch moddevtutorial:blockWindmill: 165 (init) -> 167 (map).
-[13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block com.dingziran.moddevtutorial.BlockWindmill@688c914e for ItemBlock net.minecraft.item.ItemBlock@6f05d5f2 at id 167, original id requested: 167
+[13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block com.dingziran.moddevtutorial.block.BlockWindmill@688c914e for ItemBlock net.minecraft.item.ItemBlock@6f05d5f2 at id 167, original id requested: 167
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: moddevtutorial:blockWindmill 167 net.minecraft.item.ItemBlock@6f05d5f2 (req. id 167)
 [13:17:56] [Server thread/DEBUG] [FML/]: Found matching Block net.minecraft.block.BlockColored@7ba8c737 for ItemBlock net.minecraft.item.ItemCloth@56f0cc85 at id 35, original id requested: 35
 [13:17:56] [Server thread/TRACE] [FML/]: Registry add: minecraft:wool 35 net.minecraft.item.ItemCloth@56f0cc85 (req. id 35)
@@ -2595,7 +2595,7 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:acacia_stairs 163 net.minecraft.block.BlockStairs@62010f5c
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:dark_oak_stairs 164 net.minecraft.block.BlockStairs@51fadaff
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockRed 166 com.dingziran.moddevtutorial.block.BlockRed@3acae925
-[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockWindmill 167 com.dingziran.moddevtutorial.BlockWindmill@688c914e
+[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:blockWindmill 167 com.dingziran.moddevtutorial.block.BlockWindmill@688c914e
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:hay_block 170 net.minecraft.block.BlockHay@5c44c582
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:carpet 171 net.minecraft.block.BlockCarpet@7b205dbd
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:hardened_clay 172 net.minecraft.block.BlockHardenedClay@15713d56
@@ -2920,7 +2920,7 @@ Caused by: java.lang.IllegalArgumentException: INVOKESPECIAL/STATIC on interface
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:record_11 2266 net.minecraft.item.ItemRecord@73a2e526
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: minecraft:record_wait 2267 net.minecraft.item.ItemRecord@7d64e326
 [13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemThingy 4096 net.minecraft.item.Item@379ddab2
-[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.ItemWindmill@2b35976a
+[13:17:56] [Server thread/TRACE] [FML/]: Registry: moddevtutorial:itemWindmill 4097 com.dingziran.moddevtutorial.item.ItemWindmill@2b35976a
 [13:17:56] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
 [13:17:56] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
 [13:17:56] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML

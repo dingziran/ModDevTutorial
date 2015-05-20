@@ -1,4 +1,4 @@
-package com.dingziran.moddevtutorial.renderer.tileentity;
+package com.dingziran.moddevtutorial.tileentity.renderer;
 
 import com.dingziran.moddevtutorial.ModMain;
 import net.minecraft.client.renderer.Tessellator;

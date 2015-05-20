@@ -1,4 +1,4 @@
-package com.dingziran.moddevtutorial;
+package com.dingziran.moddevtutorial.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

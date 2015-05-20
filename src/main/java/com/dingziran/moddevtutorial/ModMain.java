@@ -1,7 +1,11 @@
 package com.dingziran.moddevtutorial;
 
 import com.dingziran.moddevtutorial.block.BlockRed;
+import com.dingziran.moddevtutorial.block.BlockWindmill;
+import com.dingziran.moddevtutorial.block.BlockWindmillGround;
+import com.dingziran.moddevtutorial.item.ItemWindmill;
 import com.dingziran.moddevtutorial.proxy.CommonProxy;
+import com.dingziran.moddevtutorial.tileentity.TileEntityWindmill;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -11,7 +15,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
