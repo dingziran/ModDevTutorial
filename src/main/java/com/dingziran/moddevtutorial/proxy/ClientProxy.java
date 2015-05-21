@@ -1,6 +1,6 @@
 package com.dingziran.moddevtutorial.proxy;
 
-import com.dingziran.moddevtutorial.TileEntityWindmill;
+import com.dingziran.moddevtutorial.tileentity.TileEntityWindmill;
 import com.dingziran.moddevtutorial.tileentity.renderer.TileEntityRenderWindmill;
 import cpw.mods.fml.client.registry.ClientRegistry;
 

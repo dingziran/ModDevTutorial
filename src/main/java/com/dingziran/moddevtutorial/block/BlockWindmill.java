@@ -1,5 +1,6 @@
 package com.dingziran.moddevtutorial.block;
 
+import com.dingziran.moddevtutorial.tileentity.TileEntityWindmill;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
