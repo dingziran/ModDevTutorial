@@ -30,14 +30,22 @@ public class BlockWindmillGround extends Block{
     public boolean isMultiBlockStructure(World world,int x1 ,int y1 ,int z1){
         boolean mStructure =false;
         boolean currentCheckStructure =true;
-        for(int x3=0;x3<3;x3++){
-            for(int z3=0;z3<3;z3++){
-                if(currentCheckStructure && world.getBlock(x1-x3,y1,z1-z3).equals(ModMain.blockWindmillGround)){
-                    System.out.println("Not a multi block structure");
-                    currentCheckStructure =false;
+        for(int x2=0;x2<3;x2++){
+            for(int z2=0;z2<3;z2++){
+                if(!mStructure) {
+                    currentCheckStructure =true;
+                    for (int x3 = 0; x3 < 3; x3++) {
+                        for (int z3 = 0; z3 < 3; z3++) {
+                            if (currentCheckStructure && world.getBlock(x1 + x2 - x3, y1, z1 +z2 - z3).equals(ModMain.blockWindmillGround)) {
+                                currentCheckStructure = false;
+                            }
+                        }
+                    }
                 }
+                mStructure=currentCheckStructure;
             }
         }
+        System.out.println("Not a multi block structure");
         return false;
     }
 }
